@@ -14,6 +14,7 @@ def main():
         return
 
     expression = " ".join(sys.argv[1:])
+    #expression = "3 + 7 * 2"
     try:
         result = calculator.evaluate(expression)
         to_print = render(expression, result)

@@ -37,6 +37,7 @@ class Calculator:
             else:
                 try:
                     values.append(float(token))
+
                 except ValueError:
                     raise ValueError(f"invalid token: {token}")
 
